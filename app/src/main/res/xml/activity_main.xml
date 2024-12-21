@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Винисиус – лучший игрок мира на данный момент по версии GiveMeSport. Салах – 2-й, Родри – 3-й, Мбаппе выше Беллингема, Месси – 10-й"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bodyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Лучшим игроком мира на данный момент в GiveMeSport считают Винисиуса Жуниора.\n\nВингер «Реала» возглавил список, включающий 25 футболистов. В критериях отмечается, что игрок должен быть признанным мастером мирового класса, быть уважаемым и стабильным."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
+   
